@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  General sibling combinator selectors</title>
+    <style>
+        #demo~p{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1> GENERAL SIBLING COMBINATOR SELECTORS</h1>
+    <P>It is used to target the element if it is a sibling of the specified tag</P>
+    <p>It is represented by ~</p>
+  
+    <div id="demo">
+       <h1>child of div(direct)</h1>
+       <p> child of div(direct)</p>
+
+       <span>
+        <h1>child of div(direct)</h1>
+        <p> child of div(direct)</p>
+ 
+       </span>
+    </div>
+    <a href="">nothing is there in this anchor tag</a>
+    <p>hello world 1</p>
+    <p>hello world 2</p>
+
+
+    
+</body>
+</html>

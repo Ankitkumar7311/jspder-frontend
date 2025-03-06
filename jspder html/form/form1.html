@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input type</title>
+</head>
+<body>   
+<!--     
+                          RECAP OR NOTES
+            ATTRIBUTES OF INPUT TAG =
+              1)TYPE - TEXT/PASSWORD/EMAIL/NUMBER/CHECKBOX/RADIO/SUBMIT/RANGE/COLOR/RESET/MONTH/FILE/DATE/YEAR
+              2)name - TO SEND DATA IN THE BACKEND WE USE NAME=""
+              3)VALUE - for default  or  already filled text ( which can be edited )    value=""
+              4)REQUIRED 
+              5)MIN - ONLY USE IN NUMBER TYPE  MIN=""
+              6)MAX - ONLY USE IN NUMBER TYPE  MAX=""
+              7)MINLENGTH - ONLY USE IN TYPE = TEXT ATTRIBUTE   MINLENGTH=""
+              7)MAXLENGTH - ONLY USE IN TYPE = TEXT ATTRIBUTE   MAXLENGTH="" -->
+
+
+    <form>
+          <label>*Username:</label>
+          <input type="text" name="username"  required >     <br><br>
+
+          <label>*Password:&nbsp;</label>
+          <input type="password"  name="password" required>     <br><br>
+
+          <label>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="Email:" name="email">     <br><br>
+
+
+          <label>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="number" min="18" max="60" name="age">     <br><br>
+
+          <label>DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="date" name="dob">     <br><br>
+
+          <input type="submit" >
+
+    </form>
+    
+</body>
+</html>
