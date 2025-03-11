@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            display: flex;
+            justify-content: space-evenly
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+          
+            padding-top: 20px;
+        }
+        .container:hover:hover{
+            background-color: lightgreen;
+        }
+        .container{
+            background-color: rgb(210, 138, 138);
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        button{
+            border-radius: 8px;
+           margin-bottom: 15px;
+        }
+        button:hover{
+            background-color: red;
+            padding: 0px 15px;
+        }
+
+        p::selection{
+            background-color: yellow;
+            color: aqua;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+   <div class="container">
+    <img src="https://cdn.pixabay.com/photo/2024/02/28/15/14/ai-generated-8602228_1280.jpg" alt="">
+    <h3>Birds</h3> <i class="fa-regular fa-heart fa-beat fa-rotate-90"></i>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam quaerat adipisci magnam sapiente commodi iste quibusdam quia incidunt, tempora ipsum animi  Placeat!</p>
+     <button>Read More!</button>
+   </div>
+
+   <div class="container">
+    <img src="https://cdn.pixabay.com/photo/2024/02/28/15/14/ai-generated-8602228_1280.jpg" alt="">
+    <h3>Birds</h3>  <i class="fa-solid fa-cog fa-spin"></i>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam quaerat adipisci magnam sapiente commodi iste quibusdam quia incidunt, tempora ipsum animi  Placeat!</p>
+     <button>Read More!</button>
+   </div>
+
+   <div class="container">
+    <img src="https://cdn.pixabay.com/photo/2024/02/28/15/14/ai-generated-8602228_1280.jpg" alt="">
+    <h3>Birds</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam quaerat adipisci magnam sapiente commodi iste quibusdam quia incidunt, tempora ipsum animi  Placeat!</p>
+     <button>Read More!</button>
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="./gsap.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram login page</title>
+</head>
+<style>
+    body{
+       background: linear-gradient(rgb(98, 59, 65),rgb(174, 5, 33));
+       
+    }
+
+    .container{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+       border-radius: 10px;
+       border: none;
+        width: 460px;
+        text-align: center;
+        margin-left: 600px;
+        margin-top: 100px;
+      
+    }
+
+    #or{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #profile{
+       
+       
+    }
+     
+    img{
+        height: 150px;
+        width: 400px;
+        margin: 30px 20px;
+    }
+    input{
+        height: 36px;
+        width: 300px;
+        margin-left: 60px;
+        display: flex;
+       
+        
+    }
+
+    button{
+        font-size: 20px;
+        padding: 10px;
+        width: 305px;
+       margin-right: 35px;
+        border-radius: 6px;
+        background-color: #4CB5F9;
+        color: white;
+        border: none;
+        font-weight: bold;
+        font-family: sans-serif;
+
+    }
+
+    .anchor{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+       
+       
+    }
+    a{
+        text-decoration: none;
+    }
+   #login-a{
+    color: #43acf3;
+   
+   
+   }
+
+   #footer{
+    
+    margin-top: 10px;
+     padding-bottom: 6px;
+    text-align: center;
+    width: 440px;
+   }
+
+   #login-a::before{
+   content: "✅";
+   }
+
+  
+   
+</style>
+<body>
+
+    <div class="container">
+        
+        <div id="profile">
+      <form action="https://www.instagram.com" method="post">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3GOa09_CQMYmfIdDYXaBzmcVTpSuvTeSpQ&s" alt=""> <br>
+        <input type="text" name="pnumber"  placeholder=" Phone number, username,or email" id="">  <br> 
+       <input type="Password" name="Password" id="" placeholder="Password">  <br> 
+       <button>login</button> 
+      </form>
+
+         <div id="or">
+             <hr>
+            <p>OR</p>
+             <hr>
+         </div >
+            
+            <div class="anchor">
+                <a id="login-a" href="https://www.facebook.com/">Log in with Facebook</a>  <br>
+                <a  href="https://www.instagram.com/accounts/password/reset/">Forget password?</a>
+    
+            </div>
+        </div>
+      <div id="footer">
+        <p>Don't have an acoount?</p>
+        <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
+      </div>
+      <p id="Get">Get the app</p>
+    </div>
+    
+</body>
+</html>
