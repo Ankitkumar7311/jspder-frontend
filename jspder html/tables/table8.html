@@ -6,6 +6,173 @@
     <title>Document</title>
 </head>
 <body>
-    table>
+   <form action="">
+    <table border="2px">
+        <tbody>
+    
+            <tr>
+                <th colspan="4">1. Key Employment Details</th>
+            </tr>
+            <tr>
+                <td>1.1* surname</td>
+                <td><input type="text" name="surname" required ></td>
+                <td>1.2* Name</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td rowspan="2">1.3*gender</td>
+                <td rowspan="2"><input type="radio" value="male" name="gender" required> male <input type="radio"  name="gender" value="female" id="" required> female</td>
+                <td rowspan="2">1.4 Fathers/husband name</td>
+                <td ><input type="radio" value="father" name="f/h">father <input type="radio" value="guardian" name="f/h">guardian</td>
+            </tr>
+            <tr>
+            
+                <td><input type="text" name="imput" id=""></td>
+             
+               
+            </tr>
+            <tr>
+                <td>1.5 date of birth</td>
+                <td><input type="date" name="date"></td>
+                <td>1.6 designation post</td>
+                <td><input type="text" name="post" id=""></td>
+            </tr>
+            <tr>
+                <td>1.7 martial status</td>
+                <td> <select name="martial status" id="">
+                    <option value="select">select</option>
+                </select></td>
+                <td>1.8*office employ is working</td>
+                <td><select name="office" id="" required>
+                    <option value="select">select</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>1.9 addhar no</td>
+                <td><input type="text" name="aadhar"></td>
+                <td>1.10 EPF number</td>
+                <td><input type="text" name="epf number" id=""></td>
+            </tr>
+            <tr>
+                <td rowspan="2">1.11* remunator per month</td>
+                <td rowspan="2"><input type="text" required name="r/m"></td>
+                <td rowspan="2">1.12* commision payable</td>
+                <td><input type="radio"  value="Amount" name="per" required>Amount  <input type="radio" name="per" id="" required>percentage</td>
+            </tr>
+            <tr>
+               
+                <td><input type="text" name="xx" id=""></td>
+            </tr>
+            <tr>
+                <td>1.13* Head of Account</td>
+                <td><select name="hoa" id="" required>
+                    <option value="select">select</option>
+                </select></td>
+                <td>1.14 personal Mobile no</td>
+                <td><input type="text" name="mob"></td>
+            </tr>
+            <tr>
+                <td>1.15* Personal E-mail</td>
+                <td><input type="email" required name="email"></td>
+                <td>1.16* Community</td>
+                <td><select  id="" required name="community">  
+                    <option value="select">select</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th colspan="4" align="center">Agency Details</th>
+               
+            </tr>
+            <tr>
+                <td>2.1* contract start date:</td>
+                <td><input type="date" name="date" id="" required></td>
+                <td>2.2* contact End Date</td>
+                <td> <input type="date" name="ed" id="" required></td>
+            </tr>
+            <tr>
+                <td>2.3 contract Ref Number</td>
+                <td><input type="text" name="rn" id="" required></td>
+                <td>2.4 Sanction order number</td>
+                <td><input type="text" name="son" id="" ></td>
+            </tr>
+            <tr>
+                <td>2.5 Agency Name</td>
+                <td><input type="text" name="an" id="" ></td>
+                <td>2.6 PAN</td>
+                <td><input type="text" name="pan" id=""></td>
+            </tr>
+            <tr>
+                <td>2.7 Registration</td>
+                <td><input type="text" name="regis"></td>
+                <td>2.8 Service Tax number</td>
+                <td><input type="text" name="stn" id=""></td>
+            </tr>
+            <tr>
+                <td>2.9 Landmark</td>
+                <td><input type="text" name="land" id=""></td>
+                <td>2.10 street/road/Line</td>
+                <td><input type="text" name="street" id=""></td>
+            </tr>
+            <tr>
+                <td>2.11 Area/Locality /sector</td>
+                <td><input type="text" name="area"></td>
+                <td>2,12* district</td>
+                <td>  <select name="district" id="" required>
+                    <option value="select">select</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>2.13* Mandal</td>
+                <td><select name="mandal" id="" required>
+                    <option value="select">select</option>
+                </select></td>
+                <td>2.14* Village Town city</td>
+                <td> <select name="vtc" id="" required>
+                    <option value="select">select</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>2.15 PIN CODE</td>
+                <td><input type="text" name="pc" id=""></td>
+                <td>2.16 telephone</td>
+                <td><input type="text" name="telephone" id=""></td>
+            </tr>
+            <tr>
+                <td>2.17* Mobile</td>
+                <td><input type="text" name="mobiles" id="" required></td>
+                <td>2.18* Email</td>
+                <td><input type="email" name="email" id="" required></td>
+            </tr>
+            <tr>
+                <td>2.19* Bank name</td>
+                <td> <select name="bank name" id="" required>
+                    <option value=select">select bank name</option>
+                </select></td>
+                <td>2.20 district of the Bank Branch</td>
+                <td><select name="bank branch" id="">
+                    <option value="">select</option>
+    
+                </select></td>
+            </tr>
+            <tr>
+                <td>2.21</td>
+                <td>bank branch name</td>
+                <td><select name="bbn" id="">
+                    <option value="select">Select bank branch name</option>
+                </select></td>
+                <td>2.22 bank A/c Number</td>
+            </tr>
+    
+            <tr>
+                <td>2.23 IFS Code</td>
+                <td><input type="text" name="ifsc"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+               <th colspan="4"><button>Save Data</button></th> 
+            </tr>
+        </tbody>
+       </table>
+   </form>
 </body>
 </html>
