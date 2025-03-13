@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bharat Moves On Rapido!</title>
+    <link rel="icon" href="https://rapido-app-assets-staging.storage.googleapis.com/a0b6ce823e39816809bb4a8de153ebae_1738146656666.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        header{
+            
+            display: flex;
+            justify-content: space-between;
+             height: 150px;
+             
+        }
+        img{
+            height: 100px;
+            width: 130px;
+            padding-left: 50px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 700px;
+        
+        }
+        a{
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+          
+        }
+        a:hover{
+            color: rgba(74, 73, 73, 0.269);
+        }
+       
+        main{
+            height: 550px;
+            width: 100%;
+            background-color: #EBF1FC;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        h1{
+            font-size: 50px;
+        }
+        input{
+            height: 70px;
+            width: 600px;
+            border-radius: 10px;
+            font-size: 17px;
+            
+        }
+        #book1{
+            height: 70px;
+            width: 600px;
+            border-radius: 10px;
+            background-color:#FFCA20;
+            font-weight: bold;
+            font-size: 20px;
+            border: none;
+        }
+        #main2{
+         margin-top: 110px;
+         padding-left: 90px;
+        }
+     
+        
+       figure{
+       
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+      }
+      .img1{
+        display: flex;
+        justify-content: space-around;
+        height: 170px;
+        width: 200px;
+      }
+
+      .imgv6{
+      
+        margin-left: 180px;
+        height: 170px;
+        width: 200px;
+        padding-top:30px
+      }
+
+      .v1>h3 , .v2>h3 , .v3>h3 , .v4>h3 , .v5>h3{
+        padding-left: 80px;
+      }
+
+      #vechile{
+        display: flex;
+       
+
+      }
+      .img3 img{
+        height: 170px;
+        width: 200px;
+        margin-left: 70px;
+      }
+     .img3>h3{
+        padding-left: 120px;
+     }
+    
+     #main3{
+        background-color:#F6F7F9;
+        display: flex;
+        height: 800px;
+     }
+     #lhs{
+        
+        height: 500px;
+        width: 40%;
+        padding: 100px ;
+       text-align: center;
+     }
+
+     #rhs img{
+        height: 600px;
+        width: 600px;
+        margin-top: 100px;
+     }
+    
+
+     h1{
+       padding-top: 40px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight:bold;
+       font-size: 70px;
+        
+     }
+     #lhs p{
+      font-size: 40px;
+
+     }
+
+    #book2{
+        font-size: 30px;
+        border-radius: 25px;
+        padding: 10px 10px;
+        background: black;
+        color: white;
+    }
+
+    #main4{
+        background-color: #F6F7F9;
+        display: flex;
+        height: 900px;
+     }
+     #rhs{
+        
+        height: 500px;
+        width: 40%;
+        padding: 100px ;
+       text-align: center;
+     }
+
+     #lhs img{
+        height: 600px;
+        width: 600px;
+        margin-top: 110px;
+     }
+    
+
+     h1{
+       padding-top: 40px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight:bold;
+       font-size: 70px;
+        
+     }
+     #rhs p{
+      font-size: 40px;
+
+     }
+
+    #book2{
+        font-size: 30px;
+        border-radius: 25px;
+        padding: 10px 10px;
+        background: black;
+        color: white;
+    }
+
+
+    #main4{
+        height: 800px;
+        background-color: white;
+    }
+    #main4 #rhs img{
+        margin-bottom: 20px;
+        height: 500px;
+        width: 600px;
+    }
+
+    #main4 #lhs{
+        margin-top: 40px;
+    }
+    #main5{
+        background-color: black;
+        color: white;
+    }
+  
+    #black{
+      
+        display: flex;
+        justify-content: center;
+    }
+
+    #main5>h1{
+        margin-left: 500px;
+    }
+    #black1 img{
+        margin-right: 10px;
+    }
+    #black2 img{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #black h3{
+        margin-left:50px; 
+        padding-right: 20px;
+    }
+
+    #icon{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+
+   footer{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+   }
+
+  .nav1{
+   
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: flex-start;
+     gap: 30px;
+    
+   }
+
+   .nav2{
+    
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: flex-start;
+     gap: 30px;
+   
+
+   }
+
+   .nav3{
+    
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: flex-start;
+     gap: 30px;
+   
+
+   }
+
+
+
+    </style>
+</head>
+<body>
+  <header>
+    <img src="https://th.bing.com/th/id/OIP.6FRQThmFI6Z1sVAGCTHcEAAAAA?rs=1&pid=ImgDetMain" alt="logo">
+    <nav>
+        <a href="">About Us</a>
+        <a href="">Safety </a>
+        <a href="">Blog</a>
+        <a href="">Contact Us</a>
+    </nav>
+
+   
+
+  </header>  
+  <main>
+     <h1>Bharat Moves On Rapido!</h1> 
+     <input type="text" name="pick-location" id="" placeholder=" &nbsp; &nbsp; &nbsp; &nbsp; Enter Pickup location">  <br>
+     <input type="text" name="Drop-location" id="" placeholder=" &nbsp; &nbsp; &nbsp; &nbsp; Enter Drop Location">    <br>
+     <button id="book1">Book Ride <i class="fa-solid fa-arrow-right"></i></button>
+  </main> 
+
+
+   <div id="main2">
+     <h1>Our Services</h1>
+     <figure>
+     
+      <div class="v1">
+        <img class="img1" src="https://rapido-app-assets-staging.storage.googleapis.com/c9bf4e04eeb9f9e5a52c55a143d095c5_1738146120477.webp" alt="">
+        <h3>Bike</h3>
+      </div>
+       
+        <div class="v2">
+            <img class="img1" src="https://rapido-app-assets-staging.storage.googleapis.com/baa331808b70d22c33bdcb6e96c3a104_1738146204279.webp" alt="">
+        <h3>Auto</h3>
+        </div>
+        <div class="v3">
+            <img class="img1" src="https://rapido-app-assets-staging.storage.googleapis.com/1075eff8297f3213f71cf66b5852ced5_1738146244087.webp" alt="">
+        <h3>Auto Share</h3>
+        </div>
+
+        <div class="v4">
+            <img class="img1" src="https://rapido-app-assets-staging.storage.googleapis.com/1075eff8297f3213f71cf66b5852ced5_1738146244087.webp" alt="">
+        <h3>Auto Share</h3>
+        </div>
+        
+        <div class="v5">
+            <img class="img1" src="https://rapido-app-assets-staging.storage.googleapis.com/5e0eec287db4aae2e64b17b9fa04cbe0_1738146281373.webp" alt=""> 
+        <h3>parcel</h3><br>
+        
+        </div>
+     
+        </figure>
+      
+
+        <div id="vechile">
+               <div class="img3">
+                <img src="https://rapido-app-assets-staging.storage.googleapis.com/dd03f189ce375502079087fa3688f981_1738146314270.webp" alt="">
+                <h3>Cab Economy</h3>
+               </div>
+               <div class="img3">
+                <img src="https://rapido-app-assets-staging.storage.googleapis.com/ed7c8d4653fee97d2cd5c76f00871d72_1738146343883.webp" alt="">
+                <h3>Cab Premium</h3>
+            </div>
+
+        </div>
+     
+     
+
+  </div>
+
+
+
+
+   <div id="main3">
+         <div id="lhs">
+            <h1>  Get Quick Rides, <br> Low Fares </h1>
+            <p>In Rapido we ensure our customers get rides quickly at the most affordable prices.</p>
+            <button id="book2">Book a ride<i class="fa-solid fa-arrow-right"></i></button>
+         </div>
+
+         <div id="rhs">
+            <img src="https://rapido-app-assets-staging.storage.googleapis.com/7bfb291ed6fd8fef3949b695f66f0441_1738146457741.webp" alt="">
+         </div>
+   </div>
+
+   
+   <div id="main4">
+    <div id="lhs">
+       <img src="https://rapido-app-assets-staging.storage.googleapis.com/c1ec7791629614c8c040a2a8c68bbc79_1738146545252.webp" alt="">
+     </div>
+
+    <div id="rhs">  
+        <h1>  Flexible Hours & High Earnings </h1>
+        <p>Join as a Rapido captain and earn on your own terms. Driver whenever you want.</p>
+        <button id="book2">Start Earning <i class="fa-solid fa-arrow-right"></i></button>
+     
+    </div>
+</div>
+
+
+  <div id="main4">
+       <div id="lhs">
+        <h1>Safety for all</h1>
+       <p>At Rapido, your safety is our priority. We’re dedicated to making every ride safe and comfortable.</p>
+       <a href="">Know more ></a>
+       </div>
+
+       <div id="rhs">
+        <img src="https://rapido-app-assets-staging.storage.googleapis.com/fc70552b297693e48cef580e9f9c50c3_1738574004491.webp" alt="">
+       </div>
+  </div>
+
+
+    <div id="main5">
+        <h1>Download Now</h1>
+
+        <div id="black">
+        <div id="black1"> <h3>
+            
+            <img src="https://rapido-app-assets-staging.storage.googleapis.com/a0b6ce823e39816809bb4a8de153ebae_1738146656666.webp" alt="">
+            <h3>
+                Rapido: Bike-Taxi, <br> Auto & Cabs
+            </h3>
+           </div>
+           <div id="black2">
+            <img src="https://rapido-app-assets-staging.storage.googleapis.com/d261bc5886ba0e8d96fe1257004bbfb7_1738146890759.webp" alt="">
+           
+            <h3>Rapido Captain: <br> Drive & Earn</h3>
+        </div>
+        </div>
+
+       
+    </div>
+
+    <hr>
+   
+   <div id="icon">
+    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-youtube"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+   </div>
+
+    <hr>
+
+
+     <footer>
+       <div class="nav1">
+        <a href="">Home</a>    
+        <a href="">Safety</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Corporate Affairs</a>
+       </div>
+       <div class="nav2">
+        <a href="">About Us</a>
+        <a href="">Blog</a>
+        <a href="">Customer Terms - Bike  <br> Taxi</a>
+        <a href="">Captain Terms - Bike <br> taxi</a>
+       </div>
+       <div class="nav3">
+        <a href="">Careers</a>
+        <a href="">Press</a>
+        <a href="">Customer Terms - <br> Cabs and Auto</a>
+        <a href="">Captain Terms - Cabs  <br> and Auto</a>
+       </div>
+     </footer>
+        
+      <hr>
+
+      <p>&copy;2024 Rapido Transportation. All rights reserved. </p>
+    
+</body>
+</html>
