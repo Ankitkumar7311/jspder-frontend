@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div{
+              
+              height: 400px;
+              width: 700px;
+              border: 2px solid black;
+               display: grid;
+               grid-template-rows: repeat(4 , 1fr);
+               grid-template-columns: repeat(3 , 1fr);
+               row-gap: 10px;
+             column-gap: 10px;
+             color: white;
+              
+
+       }
+       li{
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+       }
+
+       #header{
+        grid-row: 1/2;
+        grid-column: 1/4;
+       }
+
+       #sidebar{
+        grid-row: 2/4;
+        grid-column: 1/2;
+       }
+
+       #content1{
+        grid-row: 2/3;
+        grid-column: 2/4;
+       }
+      
+       #footer{
+        grid-row: 4/5;
+        grid-column: 1/4;
+       }
+
+    </style>
+</head>
+<body>
+
+    <div id="parent">
+
+        <li id="header">header</li>
+        <li id="sidebar">side bar</li>
+        <li id="content1">content1</li>
+        <li id="content2"> content 2</li>
+        <li id="content3"> content 3</li>
+        <li id="footer">footer</li>
+       
+    </div>
+</body>
+</html>
